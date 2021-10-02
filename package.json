@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "run": "npx hardhat run scripts/run.js",
+    "startNode": "npx hardhat node",
+    "deployLocally": "npx hardhat run scripts/deploy.js --network localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
