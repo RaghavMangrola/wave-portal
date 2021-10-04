@@ -4,3 +4,11 @@ node_modules
 #Hardhat files
 cache
 artifacts
+
+# next.js build output
+.next
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

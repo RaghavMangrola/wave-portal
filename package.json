@@ -7,7 +7,11 @@
     "run": "npx hardhat run scripts/run.js",
     "startNode": "npx hardhat node",
     "deployLocally": "npx hardhat run scripts/deploy.js --network localhost",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +23,10 @@
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.4.7",
     "hardhat": "^2.6.4"
+  },
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
