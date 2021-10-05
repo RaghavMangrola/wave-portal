@@ -7,6 +7,7 @@
     "run": "npx hardhat run scripts/run.js",
     "startNode": "npx hardhat node",
     "deployLocally": "npx hardhat run scripts/deploy.js --network localhost",
+    "deployRinkeby": "npx hardhat run scripts/deploy.js --network rinkeby",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
@@ -25,6 +26,7 @@
     "hardhat": "^2.6.4"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
